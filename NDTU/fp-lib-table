@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "NewLib") (type "KiCad") (uri "D:/RT/Lib/NewLib") (options "") (descr ""))
-)

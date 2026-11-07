@@ -2180,6 +2180,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_Coaxial_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial_Small"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_1_1"
+				(arc
+					(start 1.3484 0.0039)
+					(mid 0.327 -1.308)
+					(end -1.1916 -0.6311)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.1916 0.6311)
+					(mid 0.327 1.3081)
+					(end 1.3484 -0.0039)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Micro_SD_Card"
 			(pin_names
 				(offset 1.016)
@@ -15473,6 +15650,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 314.96) (xy 81.28 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a08136f-ac94-4e5d-a018-8aaf4fd51ac0")
+	)
+	(wire
+		(pts
 			(xy 133.35 374.65) (xy 107.95 374.65)
 		)
 		(stroke
@@ -17313,6 +17500,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 323.85) (xy 82.55 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6add7eea-fef0-4c43-afd3-63e4d5f634d6")
+	)
+	(wire
+		(pts
 			(xy 44.45 78.74) (xy 44.45 77.47)
 		)
 		(stroke
@@ -17960,6 +18157,16 @@
 			(type default)
 		)
 		(uuid "864e9a7c-5b45-4575-9ab4-9dc26a0dbff0")
+	)
+	(wire
+		(pts
+			(xy 87.63 323.85) (xy 90.17 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86de13d6-c04c-4814-8615-e6dde070e6e6")
 	)
 	(wire
 		(pts
@@ -18730,6 +18937,16 @@
 			(type default)
 		)
 		(uuid "ba5ed7a7-7dda-49bd-8097-fbcc0a068b04")
+	)
+	(wire
+		(pts
+			(xy 81.28 314.96) (xy 81.28 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba80cfe9-a5c5-4365-903d-cfa652856bc0")
 	)
 	(wire
 		(pts
@@ -20171,7 +20388,7 @@
 		)
 		(uuid "34df2537-412b-4bef-acae-7e665d2bfae9")
 	)
-	(label "D-"
+	(label "D_N"
 		(at 445.77 349.25 0)
 		(effects
 			(font
@@ -20641,7 +20858,7 @@
 		)
 		(uuid "857cac7b-895f-4a36-8554-0a2154d91fef")
 	)
-	(label "USB+"
+	(label "USB_P"
 		(at 373.38 193.04 0)
 		(effects
 			(font
@@ -20761,7 +20978,7 @@
 		)
 		(uuid "984d4612-8729-49d3-bad6-36de54bd5fec")
 	)
-	(label "USB-"
+	(label "USB_N"
 		(at 457.2 349.25 0)
 		(effects
 			(font
@@ -21041,7 +21258,7 @@
 		)
 		(uuid "c99f569d-35e2-4fa4-8a79-03404c9ca05d")
 	)
-	(label "D+"
+	(label "D_P"
 		(at 445.77 354.33 0)
 		(effects
 			(font
@@ -21051,7 +21268,7 @@
 		)
 		(uuid "ca79a198-11ba-4442-9255-cf2d6f215f60")
 	)
-	(label "USB+"
+	(label "USB_P"
 		(at 457.2 354.33 0)
 		(effects
 			(font
@@ -21231,7 +21448,7 @@
 		)
 		(uuid "e23ae047-462a-4ffb-beb3-47a87a332b72")
 	)
-	(label "USB-"
+	(label "USB_N"
 		(at 373.38 190.5 0)
 		(effects
 			(font
@@ -22903,6 +23120,86 @@
 			(project "Tele board"
 				(path "/2a65a8d8-51e3-4454-b170-078c2c002475"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 85.09 323.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fb3cf6e-d26e-4320-9bd9-4a980af16b6c")
+		(property "Reference" "J13"
+			(at 84.5704 317.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial_Small"
+			(at 84.5704 320.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+			(at 85.09 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 85.09 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "85484d2e-95c4-48ca-b427-3a41b59211da")
+		)
+		(pin "1"
+			(uuid "dffac67f-cc90-4691-a450-be5b85a8f1f3")
+		)
+		(instances
+			(project "Tele board"
+				(path "/2a65a8d8-51e3-4454-b170-078c2c002475"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -27319,6 +27616,84 @@
 			(project "Tele board"
 				(path "/2a65a8d8-51e3-4454-b170-078c2c002475"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 323.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bf1b37b-087e-4f0a-9d42-ad2859077d5a")
+		(property "Reference" "#PWR087"
+			(at 90.17 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff84da07-782d-4478-917c-8d5be0645c46")
+		)
+		(instances
+			(project "Tele board"
+				(path "/2a65a8d8-51e3-4454-b170-078c2c002475"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
