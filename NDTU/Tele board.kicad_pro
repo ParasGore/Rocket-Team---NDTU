@@ -557,7 +557,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../NTDU_V1R1_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

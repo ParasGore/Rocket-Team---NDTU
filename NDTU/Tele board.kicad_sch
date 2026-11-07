@@ -21202,7 +21202,7 @@
 		)
 		(uuid "c5a9dfb9-599d-4e82-9fcb-3cade6e03932")
 	)
-	(label "SP13_MOSI"
+	(label "SPI3_MOSI"
 		(at 59.69 181.61 180)
 		(effects
 			(font
